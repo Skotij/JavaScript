@@ -12,3 +12,10 @@ table, th, td
   border: 3px solid purple
   
 }
+#eka {float: left;
+}
+img {margin: 20px}
+main {
+  min-width: 1000px;
+  width: 60%;
+}
