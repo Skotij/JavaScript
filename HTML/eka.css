@@ -11,3 +11,10 @@ table, th, td
 {
   border: 1px solid black
 }
+#eka {float: left;
+}
+img {margin: 20px}
+main {
+  min-width: 1000px;
+  width: 60%;
+}
