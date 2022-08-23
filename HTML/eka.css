@@ -1,7 +1,7 @@
 .liha
 {
   font-weight: bolder;
-  color: violet;
+  color: green;
 }
 body
 {
@@ -10,12 +10,22 @@ body
 table, th, td
 {
   border: 3px solid purple
-  
+
 }
-#eka {float: left;
+#eka {float: left;}
+
+#toka {float: right;}
+
+
+
+{
+  p text-align: inherit;
 }
 img {margin: 20px}
 main {
   min-width: 1000px;
   width: 60%;
+}
+{
+  background-color: yellow
 }
