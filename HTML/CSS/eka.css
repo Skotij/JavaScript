@@ -6,6 +6,8 @@
 body
 {
   margin: 50px;
+  background-color: pink
+  
 }
 table, th, td
 {
@@ -17,15 +19,12 @@ table, th, td
 #toka {float: right;}
 
 
-
+p
 {
-  p text-align: inherit;
+text-align: justify;
 }
 img {margin: 20px}
 main {
   min-width: 1000px;
   width: 60%;
-}
-{
-  background-color: yellow
 }
