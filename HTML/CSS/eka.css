@@ -7,24 +7,26 @@ body
 {
   margin: 50px;
   background-color: pink
-  
 }
+
 table, th, td
 {
   border: 3px solid purple
-
 }
+
 #eka {float: left;}
 
 #toka {float: right;}
-
 
 p
 {
 text-align: justify;
 }
+
 img {margin: 20px}
-main {
+
+main
+{
   min-width: 1000px;
   width: 60%;
 }

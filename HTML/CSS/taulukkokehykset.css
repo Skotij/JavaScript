@@ -1,0 +1,30 @@
+table
+{
+  border: 1px solid black
+}
+
+th, td
+{
+  border-collapse: collapse;
+}
+th, td
+{
+border-collapse: collapse;
+}
+h1
+{
+  font-weight: bolder; color: green
+}
+th
+{
+  background-color: #F00000
+}
+tr:nth-child(even)
+{
+  background-color: #FFF000
+}
+tr:nth-child(odd)
+{
+  background-color: #FFFF00
+
+}

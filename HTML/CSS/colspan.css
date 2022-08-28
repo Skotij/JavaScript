@@ -1,0 +1,9 @@
+table, th, td
+{
+  width: 450px;
+  border-collapse: collapse;
+}
+h1
+{font-weight: bolder;
+color: blue;
+}
