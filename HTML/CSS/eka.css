@@ -1,12 +1,12 @@
 .liha
 {
   font-weight: bolder;
-  color: green;
+  color: violet;
 }
 body
 {
   margin: 50px;
-  background-color: pink
+  background-color: pink;
 }
 
 table, th, td

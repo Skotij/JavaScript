@@ -5,14 +5,23 @@ table, th, td
   border-collapse: collapse;
 }
 
-table thead th,thead td
+table thead th
 {
   background-color: #cbc9c9;
   font-weight: bold;
-}
-table th {
   border: 1px solid #999;
 	text-align: left;
+}
+table thead td
+{
+  font-weight: bold;
+  border: 1px solid #999;
+	text-align: left;
+}
+table td
+{
+  font-weight: normal;
+  text-align: right;
 }
 table tbody tr:nth-child(even)
 {
