@@ -1,12 +1,9 @@
-table
-{
-  width: 500px;
+table, td, th {
   border: 1px solid black;
-}
-th, td
-{
+  width: 500px;
   border-collapse: collapse;
 }
+
 th
 {
   background-color: #F00000;

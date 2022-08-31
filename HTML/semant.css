@@ -1,10 +1,7 @@
-
 body
-
 {
-  width: 100%;
+  width: 800px;
   margin: auto;
-  background-color: #DE41D1;
 
 }
 header, footer
@@ -16,26 +13,24 @@ header, footer
 }
 header > h1
 {
-  color: #E76DDD;
-  width: 100%;
+  color: #E76DDD
 
 }
 nav
 {
-  background-color: 	#E76DDD;
-  height: 30px;
-  width: 302px;
+  background-color: 	#DE41D1;
 }
 aside
 {
   float: right;
-  background-color: #D71BC7;
-    height: 800px;
+  background-color: #DE41D1;
+    height: 505px;
+    width: 230px;
 }
 section
 {
   background-color: #E76DDD;
-  width: 100%;
+  width: 550px
 }
 aside, section
 {
