@@ -1,0 +1,53 @@
+body
+{
+width: 50%;
+margin: auto;
+}
+main
+{
+  background-color: #F5F6DB;
+  padding:  5px 20px;
+}
+.logo
+{
+  display: inline-block;
+  height: 30px;
+}
+
+h1
+{
+font-family: fantasy;
+font-weight: bold;
+color: green;
+}
+section
+{
+  width: 60%;
+}
+aside
+{
+
+}
+aside img
+{
+  width: 100%
+}
+.ikoni
+{
+  width: 30px;
+}
+hr
+{
+  height: 7%;
+  color: inherit;
+  clear: both;
+}
+div img
+{
+  height: 100px;
+}
+footer
+{
+  margin-top: 20px;
+  display: table;
+}
