@@ -1,7 +1,7 @@
 body
 {
-width: 50%;
-margin: auto;
+  width: 50%;
+  margin: auto;
 }
 main
 {
@@ -11,29 +11,54 @@ main
 .logo
 {
   display: inline-block;
-  height: 30px;
+  height: 40px;
 }
-img
+nav
 {
-  width: 10px;
-  height: 10px;
+  float: right;
+  font-size: 24px;
+  margin-top: -40px;
 }
+nav a
+{
+  color: #FF26A2;
+}
+
+#aukio
+{
+  width: 900px;
+  height: 200px;
+}
+
 
 h1
 {
-
+   color: black;
+   font-family: cursive;
+   font-weight: bolder;
+}
+p
+{
+  color: black;
 }
 section
 {
   width: 60%;
+  float: left;
 }
 aside
 {
-
+  width: 34%;
+    float: right;
+    background-color: #808080;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 aside img
 {
   width: 100%
+
 }
 .ikoni
 {
@@ -45,6 +70,13 @@ hr
   color: inherit;
   clear: both;
 }
+div
+#lipare
+{
+  display: block;
+  margin: -10px auto;
+}
+
 div img
 {
   height: 100px;
@@ -53,4 +85,27 @@ footer
 {
   margin-top: 20px;
   display: table;
+}
+div
+.vasen
+{
+  float: left;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+div
+.keski
+{
+  width: 40px;
+  margin: auto;
+  padding-left: 70px;
+  margin-right: -50px;
+}
+div
+.oikea
+{
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+
 }
