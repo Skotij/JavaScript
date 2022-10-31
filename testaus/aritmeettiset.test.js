@@ -13,4 +13,6 @@ test('2 * 3 = 6', () => {
       expect(vahennys(6,2)).toBe(4);
 });
 //Joukkotestit
-test.each([[1, 1, 2], [-1, 2, 1],])
+test.each([[1, 1, 2], [-1, 2, 1], [2, 1, 3]])(
+
+)
