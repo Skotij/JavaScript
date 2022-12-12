@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kotisivu</title>
+    <link rel="stylesheet" type="text/css" href="kotis.css">
+  </head>
+  <body>
+    <header>
+      <h1>Ota yhteyttä lomakkeella</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Etusivu</a></li>
+          <li>|</li>
+          <li><a href="minusta.html">Tietoja minusta</a></li>
+          <li>|</li>
+          <li><a href="harrastukset.html">Harrastukseni</a></li>
+          <li>|</li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li>|</li>
+          <li><a href="ota yhteyttä.html">Ota yhteyttä lomakkeella</a></li>
+        </ul>
+      </nav>
+      <main>
+
+      <form action="Lomake.php" method="post">
+        <table>
+
+          <tr>
+            <td>Etunimi:</td>
+            <td><input type="text" name="etunimi"/></td>
+          </tr>
+          <tr>
+            <td>Sukunimi:</td>
+            <td><input type="text" name="sukunimi"/></td>
+          </tr>
+
+
+          <tr>
+            <td>Sähköposti</td>
+            <td><input type="text" name="sähköposti"/></td>
+          </tr>
+
+
+          <tr>
+            <td>Mitä mieltä olet sivuistani?</td>
+            <td><input type="checkbox" name="todella hienot" value="Todella hienot" />Todella hienot<br />
+              <input type="checkbox" name="ammattimaisesti tehty" value="Ammattimaisesti tehty" />Ammattimaisesti tehty<br />
+              <input type="checkbox" name="ostan sinulta" value="Ostan sinulta" />Ostan sinulta <br/>
+            </td>
+          </tr>
+          <tr>
+          <td>Mikä oli mielestäsi parasta?</td>
+          <td><select name="Parasta oli"</td>
+            <option value="Valitse yksi"></option>
+            <option value="Ulkoasu">Ulkoasu</option>
+            <option value="Tekstit">Tekstit</option>
+            <option value="Kuvat">Kuvat</option
+            </tr>
+
+          <tr>
+            <td>Miten kehittäisit sivujani?</td>
+            <td><textarea rows="5" cols="16" name="palaute"></textarea></td>
+          </tr>
+
+          <tr>
+            <td><input type="submit" value="Lähetä" /></td>
+            <td><input type="reset" value="Tyhjennä" /></td>
+          </tr>
+        </table>
+      </form>
+</main>
+<hr/>
+<footer>
+Sonja Kotijärvi Copyright© <a href="mailto:sonja.kotijarvi@edu.keuda.fi">Ota yhteyttä</a>
+</footer>
+      </body>
+      </html>
+
+
+  </body>
+</html>

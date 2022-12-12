@@ -1,0 +1,105 @@
+
+body
+
+{
+  width: 100%;
+  margin: auto;
+  background-color: #DE41D1;
+}
+
+header
+{
+  background-color: #D71BC7;
+  padding: 5px 0px 10px 10px;
+  height: 75px;
+}
+
+footer
+{
+  background-color: #D71BC7;
+  padding: 5px 0px 10px 10px;
+  height: 25px;
+}
+header  h1
+{
+color: #FFF;
+padding: 22px 0 0 20px;
+}
+
+nav ul
+{
+margin: 0 0 0 -10px;
+background-color: #FFF;
+}
+
+nav li
+{
+float: left;
+list-style-type: none;
+padding: 0 10px;
+color: #FFF;
+}
+
+nav
+{
+  background-color: #FECCEC;
+  height: 20px;
+  width: 750px;
+}
+aside article
+{
+
+  width: 200px;
+}
+
+aside
+{
+  float: right;
+  background-color: #D71BC7;
+  width: 200px;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+section
+{
+  background-color: #E76DDD;
+  width: 800px;
+  margin-top: 20px;
+}
+section article
+{
+  width: 800px;
+}
+form
+{
+  width: 25%;
+  margin: auto;
+
+
+}
+main
+{
+  background-color: #E76DDD;
+  padding: 20px 0px;
+  border: 20px;
+}
+main h1
+{
+  text-align: center;
+}
+table
+{
+  margin: 30px auto;
+  border: 10px;
+  border-radius: 15px;
+
+}
+td
+{
+  padding-top: 15px;
+  background-color: #E76DDD;
+
+}

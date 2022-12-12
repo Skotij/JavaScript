@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="koulu.css">
+  <script src="ylomake.js" charset="utf-8"></script>
+
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+     <fieldset>
+       <table>
+         <tr>
+           <td>
+             <label for="Etunimi">Anna etunimesi:</label>
+           </td>
+           <td>
+             <input type="text" id="enimi" value="">
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <label for="Sukunimi">Anna sukunimesi:</label>
+           </td>
+           <td>
+             <input type="text" id="snimi" value="">
+           </td>
+         </tr>
+       </table>
+     </fieldset>
+     <fieldset>
+       <p>Tulin tänään kouluun:</p>
+         <input type="radio" name = "kouluun" value="jalan">Jalan<br />
+         <input type="radio" name = "kouluun" value="autolla">Autolla<br />
+         <input type="radio" name = "kouluun" value="junalla">Junalla<br />
+         <input type="radio" name = "kouluun" value="bussilla">Bussilla<br />
+         <input type="radio" name = "kouluun" value="mopolla">Mopolla<br />
+         <input type="radio" name = "kouluun" value="uimalla">Uiden
+       </fieldset>
+     <fieldset>
+       <p>Lempituntini koulussa on:</p>
+       <select id="lempi" name="">
+         <option value="">(Valitse alta oikea vaihtoehto)</option>
+         <option value="Tietotekniikka">Tietotekniikka</option>
+         <option value="Kielet">Kielet</option>
+         <option value="Matematiikka">Matematiikka</option>
+         <option value="Yhteiskunta-aineet">Yhteiskunta-aineet</option>
+         <option value="Ruokatunti">Ruokatunti</option>
+       </select><p></p>
+       <button type="button" name="button" onclick="tarkasta()">Lähetä</button>
+     </fieldset>
+   </form>
+   <p id="v2"></p>
+
+  </body>
+</html>

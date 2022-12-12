@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="vk2ekat.css">
+    <script type="text/javascript" src="vk2ekat.js">
+
+    </script>
+  </head>
+  <body>
+    <h1>Viiko 2 ekat harjoitukset</h1>
+    <h1>If, else, else if-lauseet</h1>
+    <article class='vieri' id='yksi'>
+    <h1>Tehtävä 1</h1>
+    <p>Tee ohjelma, joka pyytää käyttäjältä
+    kolmea numeroa ja laittaa ne järjestykseen</p>
+    <form class="" action="index.html" method="post">
+      <p>Anna 1. numero: <input type="text" id="eka" value=""></p>
+      <p>Anna 2. numero: <input type="text" id="toka" value=""></p>
+      <p>Anna 3. numero: <input type="text" id="kolmas" value=""></p>
+      <button type="button" name="button" onclick="jarjesta()">Järjestä luvut</button>
+    </form>
+  </article>
+
+  <article  class='vieri' id='kaksi'>
+    <h1>Tehtävä 2</h1>
+    <p>Kirjoita ohjelma, joka ottaa vastaan 5 lukua ja etsii niistä suurimman</p>
+    <form class="" action="index.html" method="post">
+      <p>Anna 1. luku: <input type="text" id="luku1" value=""></p>
+      <p>Anna 2. luku: <input type="text" id="luku2" value=""></p>
+      <p>Anna 3. luku: <input type="text" id="luku3" value=""></p>
+      <p>Anna 4. luku: <input type="text" id="luku4" value=""></p>
+      <p>Anna 5. luku: <input type="text" id="luku5" value=""></p>
+      <button type="button" name="button" onclick="etsiSuurin()">Etsi suurin numero</button>
+
+    </form>
+  </article>
+  <article  class='vieri' id='kolme'>
+    <h1>Tehtävä 3</h1>
+    <p>Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton</p>
+    <p>Anna luku: <input type="text" id="luku" value=""></p>
+    <button type="button" name="button" onclick="paritonParillinen()">Tarkista</button>
+    <p id="m3">Näytä: 0</p>
+  </article>
+  <article  class='vieri' id='nelja'>
+    <h1>Tehtävä 4</h1>
+    <p>Kirjoita ohjelma, joka kysyy käyttäjän ikää ja tarkistaa, mitä ajoneuvoa saa ajaa: <16v - polkupyörää, <18v - mopoa, muutoin autoa</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna käyttäjän ikä: <input type="text" id="ika" value=""></p>
+        <button type="button" name="button" onclick="ajoneuvo()">Näytä ajoneuvo</button>
+
+      </form>
+    </article>
+    <article  class='vieri' id='viisi'>
+    <h1>Tehtävä 5</h1>
+      <p>Kirjoita ohjelma, joka kääntää "Hei maailma" - tekstin valitulle kielelle (englanti, ruotsi, espanja)</p>
+    <p>Valitse kieli</p>
+    <select class="" id="kieli">
+      <option value="eng">Englanti</option>
+      <option value="swe">Ruotsi</option>
+      <option value="esp">Espanja</option>
+    </select>
+    <button type="button" id="button" onclick="kaanna()">Käännä</button>
+
+  </article>
+  </body>
+</html>
