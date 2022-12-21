@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="loc.sto.css">
+    <script src="loc.sto.js"> </script>
+    <title>Local storage harjoitus</title>
+  </head>
+  <body>
+    <main>
+      <h1>Lomake</h1>
+
+      <form action="Lomake.php" method="post">
+        <table>
+          
+          <tr>
+            <td>Etunimi:</td>
+            <td><input type="text" name="etunimi"/></td>
+          </tr>
+
+          <tr>
+            <td>Sukunimi:</td>
+            <td><input type="text" name="sukunimi"/></td>
+          </tr>
+
+          <tr>
+            <td>Lähiosoite:</td>
+            <td><input type="text" name="Lähiosoite" /></td>
+          </tr>
+
+          <tr>
+            <td>Postinumero:</td>
+            <td><input type="postinumero" name="Postinumero"/></td>
+          </tr>
+
+          <tr>
+            <td>Postitoimipaikka:</td>
+            <td><input type="postitoimipaikka" name="Postitoimipaikka"/></td>
+          </tr>
+
+          <tr>
+            <td>Puhelinnumero:</td>
+            <td><input type="text" name="puhelinnumero" value=""></td>
+          </tr>
+
+          <tr>
+            <td>Sähköposti:</td>
+            <td><input type="text" name="sähköposti" value=""></td>
+          </tr>
+
+          <tr>
+            <td><input type="submit" value="Lähetä" /></td>
+            <td><input type="reset" value="Tyhjennä" /></td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
+</html>
