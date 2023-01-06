@@ -20,11 +20,11 @@ function laskePisteet()
         pisteet++;
         break;
       case 'o':
-      case 'ÃƒÂ¤':
+      case 'ä':
       case 'k':
       case 'l':
       case 'O':
-      case 'Ãƒâ€ž':
+      case 'Ä':
       case 'K':
       case 'L':
         pisteet+=2;
@@ -49,9 +49,9 @@ function laskePisteet()
       case 'V':
         pisteet+=4;
         break;
-      case 'ÃƒÂ¶':
+      case 'ö':
       case 'd':
-      case 'Ãƒâ€“':
+      case 'Ö':
       case 'D':
         pisteet+=7;
         break;
@@ -90,22 +90,7 @@ function muunnaTaulukoksi()
   taulu += '</table>';
   document.getElementById('ttaulu').innerHTML = taulu;
 }
-function teeLomake()
-{
-  var lomake = '<p>Anna tilinro:<input type="text" id="tilinro" value=""></p>';
-  var lomake = lomake + '<p>Anna etunimi:<input type="text" id="enimi" value=""></p>';
-  var lomake = lomake + '<p>Anna sukunimi:<input type="text" id="snimi" value=""></p>';
-  var lomake = lomake + '<p>Anna saldo:<input type="text" id="saldo" value=""></p>';
-  var lomake = lomake + '<p>Haluatko jatkaa (k/e):<input type="text" id="lopetus" value=""></p>';
-  document.getElementById('lomake').innerHTML = lomake;
-  laskuri = 0;
-  lopetus = 'e';
-  do {
 
-    lopetus = document.getElementById('lopetus').value;
-  }while(lopetus = 'k');
-
-}
 function arvoKortit()
 {
   var pakka = [''];

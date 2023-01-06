@@ -5,8 +5,8 @@ function positiivinenNegatiivinen()
     document.write("Antamasi luku: " + arvo);
     if(luku>=0)
     {
-      document.write("<br>Antamasi luku on negatiivinen");
+      document.write("Antamasi luku on positiivinen");
     }
     else {
-      document.write("<br>Antamasi luku on positiivinen");
+      document.write("Antamasi luku on negatiivinen");
     }

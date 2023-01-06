@@ -1,0 +1,43 @@
+.vieri
+{
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  float:left;
+  font-style: oblique;
+}
+
+#yksi{
+  background-color: yellow;
+}
+#kaksi{
+  background-color: lightblue;
+}
+#kolme{
+    background-color: grey;
+}
+#nelja{
+    background-color: violet;
+}
+#viisi{
+    background-color: lightgreen;
+}
+#kuusi{
+  background-color: green;
+}
+#seiska{
+  background-color: orange;
+}
+#kasi{
+  background-color: yellow;
+}
+#ysi{
+  background-color: brown;
+}
+#kyba{
+  background-color: violet;
+}
+#ykst{
+  background-color: pink;
+}
