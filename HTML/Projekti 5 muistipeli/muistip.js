@@ -1,5 +1,5 @@
 // Luodaan kortit
-var merkit = ['kuva0.jpg','kuva1.jpg','kuva2.jpg','kuva3.jpg','kuva4.jpg','kuva5.jpg','kuva6.jpg','kuva7.jpg','kuva0.jpg','kuva1.jpg','kuva2.jpg','kuva3.jpg','kuva4.jpg','kuva5.jpg','kuva6.jpg','kuva7.jpg'];
+var merkit = ['kuva0.jpg','kuva1.jpg','kuva2.jpg','kuva3.png','kuva4.jpg','kuva5.jpg','kuva6.jpg','kuva7.jpg','kuva0.jpg','kuva1.jpg','kuva2.jpg','kuva3.png','kuva4.jpg','kuva5.jpg','kuva6.jpg','kuva7.jpg'];
 // luodaan laskurimuuttuja
 var smerkki = 0;
 // luodaan vanha-muuttuja vanhaa korttia varten
