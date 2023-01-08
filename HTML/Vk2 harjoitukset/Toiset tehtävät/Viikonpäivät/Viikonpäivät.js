@@ -1,7 +1,7 @@
 function viikonPäivät()
+{
 var päivä = 0;
-
-switch (new Date().getDay()) {
+switch (new Date().getDay()) 
   case 1:
     päivä = "Maanantai";
     break;
@@ -21,6 +21,6 @@ switch (new Date().getDay()) {
     päivä = "Lauantai";
     break;
   case  7:
-    päivä = "Sunnutai";
+    päivä = "Sunnuntai";
 }
 document.getElementById("").innerHTML = "Tänään on " + päivä;
